@@ -20,6 +20,8 @@ class MainActivity : Activity() {
             Product("test1","test desc1", BigDecimal("29.99"))
         ))
 
+
+
         //recyclerView.layoutManager = LinearLayoutManager(this)
 
         /*val title = findViewById<TextView>(R.id.title)
