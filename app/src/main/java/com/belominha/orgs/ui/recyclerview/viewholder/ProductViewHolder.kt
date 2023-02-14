@@ -13,6 +13,6 @@ class ProductViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val description = itemView.findViewById<TextView>(R.id.description)
         description.text = product.description
         val value = itemView.findViewById<TextView>(R.id.value)
-        value.text = product.value.toPlainString()
+        value.text = product.price.toPlainString()
     }
 }
