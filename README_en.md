@@ -1,4 +1,4 @@
-English Version [Portuguese Version](README.md)
+**English Version** [Portuguese Version](README.md)
 
 # Organic Products Application (Orgs)
 
