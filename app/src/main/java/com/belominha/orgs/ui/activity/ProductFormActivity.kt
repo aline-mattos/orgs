@@ -1,11 +1,13 @@
 package com.belominha.orgs.ui.activity
 
+import android.graphics.Insets.add
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import com.belominha.orgs.R
+import com.belominha.orgs.dao.ProductDao
 import com.belominha.orgs.model.Product
 import java.math.BigDecimal
 
@@ -34,6 +36,10 @@ class ProductFormActivity : AppCompatActivity(R.layout.activity_product_form) {
             )
 
             Log.i("ProductFormActivity", "onCretate: $newProduct")
+            val dao = ProductDao()
+            dao.addProduct(newProduct)
+            Log.i("ProductFormActivity", "onCretate: ${dao.getAll()}")
+            finish()
         }
     }
 }
