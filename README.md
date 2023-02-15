@@ -1,7 +1,7 @@
 **Versão em Português**
 [English version here](README_en.md)
 
-# Aplicativo de Produtos Orgânicos (Orgs).
+# Aplicativo de Produtos Orgânicos (Orgs)
 
 ## O que é o app e o que ele se propõe a fazer:
 
