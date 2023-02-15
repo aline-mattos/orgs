@@ -10,8 +10,10 @@ import com.belominha.orgs.ui.recyclerview.viewholder.ProductViewHolder
 
 class ProductListAdapter(
     private val context: Context,
-    private val products: List<Product>
+    products: List<Product>
 ) : RecyclerView.Adapter<ProductViewHolder>() {
+
+    private val products = products.toMutableList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
         val inflater = LayoutInflater.from(context)
@@ -24,6 +26,12 @@ class ProductListAdapter(
     }
 
     override fun getItemCount(): Int = products.size
+
+    fun att(products: List<Product>) {
+        this.products.clear()
+        this.products.addAll(products)
+        notifyDataSetChanged()
+    }
 
 
 }
