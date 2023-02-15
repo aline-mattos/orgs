@@ -1,4 +1,4 @@
-English Version
+English Version [Portuguese Version](README.md)
 
 # Organic Products Application (Orgs)
 
@@ -26,3 +26,4 @@ As I had already studied Kotlin before, I took the course to remember the implem
 - AppCompatActivity and AndroidX libraries;
 - Data Access Object - DAO;
 
+You can access the Alura course by clicking [here](https://cursos.alura.com.br/course/fundamentos-android-kotlin).
